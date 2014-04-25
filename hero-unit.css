@@ -1,47 +1,9 @@
 .hero-unit {
     background: #464646;
     color: #fff;
-
-h1 {
-
-@include text-shadow(#000 1px 5px  10px);
-span {
-    color: #F5821F;
+	height: 124px;
 }
 
-    }
-
-.btn-info {
-    padding: 15px;
-    font-size: 1.2em;
+.hero-unit h1 {
+	font-size: 33px;
 }
-
-form {
-@include border-radius ( 10 px );
-    background: #6d6b6b;
-
-label {
-    font-weight: bold;
-    font-size: 1.2em;
-
-&.checkbox {
-    font-weight: normal;
-    font-size: 1em;
-    color: #2d2d2d;
-}
-
-    }
-
-input {
-    background: #464646;
-    border: solid 1px #545252;
-
-@include box-shadow(inset #2d2d2d 1px 0px 3px);
-color:#8b7b6c
-
-;
-    }
-
-    }
-
-    }
